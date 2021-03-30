@@ -1,11 +1,11 @@
+import Navbar from "@components/Navbar";
+import Sidebar from "@components/Sidebar";
+import Home from "@pages/Home";
 import React from "react";
 import "./App.css";
+
 function App() {
-  return (
-    <div className="App">
-      <h1>hihihihi</h1>
-    </div>
-  );
+  return <Home></Home>;
 }
 
 export default App;
