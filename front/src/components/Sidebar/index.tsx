@@ -18,7 +18,7 @@ interface ISidebarProps {
 function Sidebar({ isMenuOpen, toggleMenu }: ISidebarProps) {
   return (
     <>
-      <SidebarContainer isMenuOpen={isMenuOpen} onClick={toggleMenu}>
+      <SidebarContainer isMenuOpen={isMenuOpen}>
         <Icon onClick={toggleMenu}>
           <CloseIcon />
         </Icon>
