@@ -17,4 +17,4 @@ jobs:
 
       - name: Build                   
         working-directory: ./front
-        run: yarn run build
+        run: yarn build
