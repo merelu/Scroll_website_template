@@ -21,7 +21,7 @@ function HeroSection() {
   }, []);
   return (
     <>
-      <HeroContainer>
+      <HeroContainer id="home">
         <HeroBg>
           <VideoBg autoPlay loop muted src={Video} />
         </HeroBg>
@@ -39,6 +39,10 @@ function HeroSection() {
               onMouseLeave={onHover}
               primary={true}
               dark={true}
+              smooth={true}
+              duration={500}
+              spy={true}
+              offset={-80}
             >
               Get started {hover ? <Arrowforward /> : <ArrowRight />}
             </Button>
