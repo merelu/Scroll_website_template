@@ -15,5 +15,6 @@ jobs:
         working-directory: ./front
         run: yarn install
 
-      - name: Build                   # React Build
+      - name: Build                   
+        working-directory: ./front
         run: yarn run build
